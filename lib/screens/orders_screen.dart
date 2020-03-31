@@ -35,7 +35,10 @@ class OrdersScreen extends StatelessWidget {
               },
             );
           }
-          return Container();
+          return Container(
+            width: 0,
+            height: 0,
+          );
         },
       ),
     );
